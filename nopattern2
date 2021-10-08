@@ -1,0 +1,13 @@
+var n=5,a,k :Int
+let i,j :Int
+a=n
+k=1
+for i in 1...n
+{
+  for _ in 1...i
+  {
+    print(k,terminator:" ")
+    k=k+1
+  }
+  print("\n")
+}
