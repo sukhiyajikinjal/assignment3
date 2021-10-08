@@ -1,0 +1,12 @@
+var n=5,a :Int
+let i,j,k :Int
+for i in 1...n
+{
+  a=1
+  for j in 1...i
+  {
+    print(a,terminator: " ")
+    a=a*(i-j)/j
+  }
+  print("\n")
+}
